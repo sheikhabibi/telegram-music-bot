@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+client_secrets.json
+
+# Local files
+songs_tele/
+download_history.json
+pending_deletes.json
+
+# Replit
+.replit
