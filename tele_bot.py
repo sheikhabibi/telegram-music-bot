@@ -58,7 +58,7 @@ async def download_song_async(url):
             'postprocessors': [{
                 'key': 'FFmpegExtractAudio',
                 'preferredcodec': 'mp3',
-                'preferredquality': '192',
+                'preferredquality': '320',
             }],
             'quiet': True,
             'noplaylist': True
