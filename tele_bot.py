@@ -13,6 +13,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 import json
 from datetime import datetime
 import time
+import pytz
 
 # --- CONFIG ---
 from dotenv import load_dotenv
@@ -58,7 +59,7 @@ async def download_song_async(url):
             'postprocessors': [{
                 'key': 'FFmpegExtractAudio',
                 'preferredcodec': 'mp3',
-                'preferredquality': '320',
+                'preferredquality': '0',
             }],
             'quiet': True,
             'noplaylist': True
@@ -188,11 +189,12 @@ def upload_to_drive(file_path, folder_id=None):
 
 # --- logging ---
 LOG_FILE = "download_history.json"
+IST = pytz.timezone("Asia/Kolkata")
 
 def log_download(user_id, username, song_name, drive_link):
     """Log a download for a user in JSON format."""
     entry = {
-        "timestamp": datetime.utcnow().isoformat(),
+        "timestamp": datetime.now(IST).isoformat(),
         "username": username,
         "song": song_name,
         # "drive_link": drive_link

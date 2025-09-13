@@ -36,7 +36,7 @@ Before running the bot, you need API keys from the following platforms:
 ---
 
 
-## Add secrets
+## 🔐 Add secrets
 ### 1. create a .env file in the project root with:
 ```
 TELEGRAM_TOKEN=your_telegram_token
