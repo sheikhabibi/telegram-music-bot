@@ -4,7 +4,7 @@ A Telegram bot that downloads songs from **Spotify tracks/playlists** or **YouTu
 
 ## ✨ Features
 - Spotify & YouTube link handling
-- MP3 extraction with yt-dlp (192kbps)
+- MP3 extraction with yt-dlp (320kbps)
 - Google Drive upload with 30-min auto-expiry
 - JSON-based history logging per user
 - Parallel downloads for playlists
