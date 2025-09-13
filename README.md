@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎵 Telegram Music Downloader Bot (Vibe Coding)
 
 A Telegram bot that downloads songs from **Spotify tracks/playlists** or **YouTube videos/playlists**, converts them to MP3, uploads them to Google Drive, and sends you a temporary download link.
@@ -23,8 +22,3 @@ cd telegram-music-bot
 ```bash
 pip install -r requirements.txt
 ```
-
-=======
-# telegram-music-bot
-A Telegram bot that downloads music from Spotify/YouTube and uploads to Google Drive
->>>>>>> 2ee66a8e450ca22ea791611524d86df364e79718
