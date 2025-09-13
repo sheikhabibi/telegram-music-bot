@@ -8,9 +8,10 @@ A Telegram bot that downloads songs from **Spotify tracks/playlists** or **YouTu
 - Google Drive upload with 30-min auto-expiry
 - JSON-based history logging per user
 - Parallel downloads for playlists
-- Works on Replit (24/7 free hosting)
+
 
 ---
+
 
 ## 🔑 Required API Keys and Secrets
 
@@ -23,15 +24,18 @@ Before running the bot, you need API keys from the following platforms:
 2. **Spotify API**
    - Create a developer account at [Spotify Developer](https://developer.spotify.com/).
    - Create an app and get:
-     - `SPOTIFY_CLIENT_ID`
-     - `SPOTIFY_CLIENT_SECRET`
+        - `SPOTIFY_CLIENT_ID`
+        - `SPOTIFY_CLIENT_SECRET`
 
 3. **Google Drive API**
    - Go to [Google Cloud Console](https://console.cloud.google.com/).
    - Enable Drive API and create OAuth client credentials.
    - Download `client_secrets.json`.
 
+
 ---
+
+
 ## Add secrets
 ### 1. create a .env file in the project root with:
 ```
@@ -40,7 +44,7 @@ SPOTIFY_CLIENT_ID=your_spotify_client_id
 SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
 ```
 ### 2. Add Google Drive credentials
-Place the downloaded client_secrets.json in the project root.
+Place the downloaded `client_secrets.json` in the project root.
 
 ### 3. Run the bot
 ```
