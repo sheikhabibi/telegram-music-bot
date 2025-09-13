@@ -5,6 +5,7 @@ __pycache__/
 # Secrets
 .env
 client_secrets.json
+.cache
 
 # Local files
 songs_tele/
